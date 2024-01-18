@@ -1,0 +1,12 @@
+:root {
+	--font-size-base: 18px;
+	--font-size-medium: 1.5rem;
+	--font-size-large: 1.8rem;
+
+	--spacing-small: 1rem;
+	--spacing-medium: 2rem;
+	--spacing-large: 4rem;
+
+	--color-gold: rgb(227, 165, 74);
+
+}

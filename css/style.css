@@ -48,6 +48,15 @@ nav {
 	text-align: center;
 }
 
+h3 {
+	transition: 200ms;
+}
+
+h3:hover {
+	color: var(--color-gold);
+	transform: scale(1.08);
+}
+
 
 footer {
 	align-self: center;
