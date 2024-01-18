@@ -12,6 +12,7 @@ required endpoints.
 ### Credits
 
 * Zagist Font:  
+	Designer: Patria Ari Wijonarko
 	This font is intended for DEMO and PERSONAL USE ONLY. COMMERCIAL USE is strictly prohibited.
 
 	To purchase the full version of the font and obtain a COMMERCIAL LICENSE, please visit the following link: [Link](https://patriastd.com/shop/zagist-font-family/).
