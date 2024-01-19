@@ -10,10 +10,11 @@
 
 
 @media screen and (min-width: 700px) {
-	
-	.nav {
+	nav {
+		display: flex;
 		flex-direction: row;
-
+		justify-content: center;
+		gap: var(--spacing-medium);
 	}
 	
 	.cards__card {
@@ -23,6 +24,5 @@
 
 	.card__image {
 		max-width: 20rem;
-	}
-	
+	}	
 }

@@ -16,3 +16,7 @@ required endpoints.
 	SIL	Open Font Licence
 	* Star Wars Font family: Unknown designer (cdnfonts.com)  
 	Description: Jedi will tell you how to use it!
+
+* Photos
+	* Subpage background: Casey Horner (unsplash.com)
+	* Landing page background: Maria Ten (unsplash.com)
