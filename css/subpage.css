@@ -8,6 +8,13 @@
 	opacity: 0.2;
 }
 
+li span:nth-last-of-type(2) {
+	font-weight: 800;
+	margin-right: .5rem;
+
+
+}
+
 
 @media screen and (min-width: 700px) {
 	nav {
