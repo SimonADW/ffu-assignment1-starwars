@@ -4,8 +4,9 @@
   	https://www.joshwcomeau.com/css/custom-css-reset/
 */
 
-*, *::before, *::after {
+*, *::before, *::after {	
 	box-sizing: border-box;
+	list-style: none;
 }
 
 * {
@@ -44,6 +45,7 @@ p, h1, h2, h3, h4, h5, h6 {
 overflow-wrap: break-word;
 font-weight: 400;
 }
+
 
 
 /* only needed if you use a JS framework */

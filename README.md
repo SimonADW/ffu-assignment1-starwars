@@ -11,4 +11,8 @@ required endpoints.
 
 ### Credits
 
-* Roboto Condensed Designer: Christian Robertson
+* Fonts:  
+	* Roboto Condensed Designer: Christian Robertson  
+	SIL	Open Font Licence
+	* Star Wars Font family: Unknown designer (cdnfonts.com)  
+	Description: Jedi will tell you how to use it!
