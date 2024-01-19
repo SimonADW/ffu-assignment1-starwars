@@ -17,6 +17,7 @@ body {
 	border: 1px solid rgb(227, 165, 74);
 	box-shadow: 0 0 15px rgb(227, 165, 74);
 	background: black;
+
 }
 
 .flex-center {
@@ -34,7 +35,7 @@ main {
 	justify-content: center;
 	gap: 3rem;
 	padding: 0 var(--spacing-medium);
-	
+	position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,14 +46,9 @@ h1 {
 	margin-top: var(--spacing-medium);
 }
 
-p.introduction {
-	margin-bottom: var(--spacing-large);
-	font-weight: inherit;
-	font-style: italic;	
-}
-
-nav {
-	text-align: center;
+.landing-page__heading {
+	position: absolute;
+	top: 150px;
 }
 
 h3 {
@@ -62,6 +58,15 @@ h3 {
 h3:hover {
 	color: var(--color-gold);
 	transform: scale(1.08);
+}
+
+p.introduction {
+	margin-bottom: var(--spacing-large);
+	letter-spacing: 0.7px;
+}
+
+nav {
+	text-align: center;
 }
 
 article h4 {
