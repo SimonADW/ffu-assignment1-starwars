@@ -1,3 +1,11 @@
 @import url('https://fonts.cdnfonts.com/css/star-wars?styles=139840');
-@import url('https://fonts.cdnfonts.com/css/zagist');
+
+@font-face {
+
+font-family: "Roboto-condensed";
+	src: url(../assets/fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf) format("ttf") tech("variations");
+	src: url(../assets/fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf) format("ttf-variations");
+	font-weight: 100 1000;
+	font-stretch: 25% 151%;
+}
 

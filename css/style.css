@@ -2,14 +2,18 @@
 body {	
 	margin: 1rem 1rem;
 	min-height: calc(100vh - (1rem + 1rem));	
-	font-family: 'Zagist', sans-serif;	
+	
+	font-family: 'Roboto-condensed', sans-serif;	
+	font-weight: 350;
 	font-size: var(--font-size-base);
+	line-height: 1.8rem;
+	color: white;
+
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
 	gap: 3rem;
-	color: white;
-	line-height: 1.8rem;
+
 	border: 1px solid rgb(227, 165, 74);
 	box-shadow: 0 0 15px rgb(227, 165, 74);
 	background: black;
@@ -40,8 +44,11 @@ h1 {
 	margin-top: var(--spacing-medium);
 }
 
-p {
+p.introduction {
 	margin-bottom: 1rem;
+	font-weight: inherit;
+	font-style: italic;
+	
 }
 
 nav {
