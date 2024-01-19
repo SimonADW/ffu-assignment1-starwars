@@ -15,6 +15,10 @@
 	gap: var(--spacing-small);
 }
 
+img {
+	border: .5px solid black;
+}
+
 .card__content li {
 	margin-bottom: var(--spacing-xsmall);
 }
@@ -30,9 +34,11 @@ li span:nth-last-of-type(2) {
 
 .light-saber {
 	width: 75%;
-	height: 5px;
-	border-radius: 3px;
-	border: 1px solid transparent;
+	height: 8px;
+	border-radius: 6px;
+	border: 1px solid rgba(235, 33, 46, 0.8);
+	box-shadow: 0 0 10px rgba(235, 33, 46, 0.8);	
+	overflow: hidden;
 	display: flex;	
 	margin: var(--spacing-medium) auto;	
 }
@@ -40,8 +46,6 @@ li span:nth-last-of-type(2) {
 .light-saber div:nth-of-type(1) {
 	flex-basis: 80%;
 	background: rgb(235, 33, 46);
-	box-shadow: 0 0 6px #AB1822;
-	
 }
 
 .light-saber div:nth-of-type(2) {
