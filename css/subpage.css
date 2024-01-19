@@ -1,0 +1,28 @@
+
+.subpage-background {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	object-fit: cover;
+	opacity: 0.2;
+}
+
+
+@media screen and (min-width: 700px) {
+	
+	.nav {
+		flex-direction: row;
+
+	}
+	
+	.cards__card {
+		display: flex;
+		gap: var(--spacing-medium);
+	}
+
+	.card__image {
+		max-width: 20rem;
+	}
+	
+}
