@@ -1,6 +1,7 @@
 
 import renderCard from "./renderCard.js";
 
+
 function CreateFilmCard(title, director, releaseYear, episodeID, openingCrawl, imageUrl) {
 	this.Title = title,
 	this.Director = director, 

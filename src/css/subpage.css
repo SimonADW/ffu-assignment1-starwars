@@ -45,7 +45,8 @@ li span:nth-last-of-type(2) {
 	margin: var(--spacing-medium) auto var(--spacing-medium);	
 }
 
-.light-saber div:nth-of-type(1) {
+.light-saber div:nth-of-type(1),
+.light-saber div:nth-of-type(3) {
 	flex-basis: 80%;
 	background: rgb(235, 33, 46);
 }
