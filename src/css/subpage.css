@@ -12,11 +12,12 @@
 .cards__card {
 	display: flex;
 	flex-direction: column;
-	gap: var(--spacing-small);
+	/* gap: var(--spacing-small); */
 }
 
 img {
 	border: .5px solid black;
+	margin-bottom: var(--spacing-medium);
 }
 
 .card__content li {
@@ -25,6 +26,7 @@ img {
 
 h5 {
 	margin-bottom: var(--spacing-medium);
+	font-size: 18px;
 }
 
 li span:nth-last-of-type(2) {
@@ -34,13 +36,13 @@ li span:nth-last-of-type(2) {
 
 .light-saber {
 	width: 75%;
-	height: 8px;
+	height: 6px;
 	border-radius: 6px;
 	border: 1px solid rgba(235, 33, 46, 0.8);
 	box-shadow: 0 0 10px rgba(235, 33, 46, 0.8);	
 	overflow: hidden;
 	display: flex;	
-	margin: var(--spacing-medium) auto;	
+	margin: var(--spacing-medium) auto var(--spacing-medium);	
 }
 
 .light-saber div:nth-of-type(1) {
@@ -60,10 +62,6 @@ li span:nth-last-of-type(2) {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		gap: var(--spacing-medium);
-	}
-	
-	.cards__card {
 		gap: var(--spacing-medium);
 	}
 

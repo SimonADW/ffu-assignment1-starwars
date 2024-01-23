@@ -89,4 +89,3 @@ const renderCard = (objectToRender)=> {
 renderCard(attackOfTheClones);
 renderCard(aNewHope);
 renderCard(empireStrikesBack);
-
