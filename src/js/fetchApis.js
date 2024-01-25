@@ -1,4 +1,4 @@
-import { CreateFilmCard, CreatePlanetCard } from "./createCards.js"
+import { CreateFilmCard, CreatePlanetCard, CreateVehicleCard } from "./createCards.js"
 import renderCard from "./renderCard.js";
 
 export const fetchAndRenderFilms = ()=> {
@@ -34,6 +34,25 @@ export const fetchAndRenderPlanets = ()=> {
 				`./assets/images/planets/${planet.name.replace(/\s+/g, '')}.jpg`
 			);
 			renderCard(currentPlanet);				
+		});
+	});
+};
+
+export const fetchAndRenderVehicles = ()=> {
+	fetch("https://swapi.dev/api/vehicles")
+	.then(response => response.json())
+	.then((data) => {
+		console.log(data);
+		data.results.forEach(vehicle => {			
+			const currentVehicle = new CreateVehicleCard(
+				vehicle.name,
+				vehicle.manufacturer, 
+				vehicle.crew,
+				vehicle.cargo_capacity,
+				vehicle.vehicle_class,
+				`./assets/images/vehicles/${vehicle.name.replace(/[\/\s]+/g, '')}.jpg`
+			);
+			renderCard(currentVehicle);				
 		});
 	});
 };

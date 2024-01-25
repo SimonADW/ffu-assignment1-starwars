@@ -20,3 +20,5 @@ required endpoints.
 * Photos
 	* Subpage background: Casey Horner (unsplash.com)
 	* Landing page background: Maria Ten (unsplash.com)
+	* T-16 Skyhopper: Mark Molnar
+	* All remaining images is from The Official Star Wars Website 
