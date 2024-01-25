@@ -1,15 +1,8 @@
 
-import renderCard from "./renderCard.js";
-import { fetchAndRenderFilms } from "./fetchApis.js";
 
-export function CreateFilmCard(title, director, releaseDate, episodeID, openingCrawl, imageUrl) {
-	this.Title = title,
-	this.Director = director, 
-	this.ReleaseYear = releaseDate, 
-	this.EpisodeID = episodeID, 
-	this.OpeningCrawl = openingCrawl,
-	this.ImageUrl = imageUrl 
-}
+import { fetchAndRenderFilms, fetchAndRenderPlanets } from "./fetchApis.js";
+
+
 
 const selectFunction = ()=> {
 	const path = window.location.pathname;

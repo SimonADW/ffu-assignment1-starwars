@@ -1,4 +1,4 @@
-import { CreateFilmCard } from "./main.js"
+import { CreateFilmCard, CreatePlanetCard } from "./createCards.js"
 import renderCard from "./renderCard.js";
 
 export const fetchAndRenderFilms = ()=> {
@@ -12,9 +12,28 @@ export const fetchAndRenderFilms = ()=> {
 				film.release_date,
 				film.episode_id,
 				film.opening_crawl,
-				`./assets/images/films/${film.title.replace(/\s+/g, '')}.jpeg`
+				`./assets/images/films/${film.title.replace(/\s+/g, '')}.jpg`
 			);
 			renderCard(currentFilm);				
+		});
+	});
+};
+
+export const fetchAndRenderPlanets = ()=> {
+	fetch("https://swapi.dev/api/planets")
+	.then(response => response.json())
+	.then((data) => {
+		console.log(data);
+		data.results.forEach(planet => {			
+			const currentPlanet = new CreatePlanetCard(
+				planet.name,
+				planet.climate, 
+				planet.rotation_period,
+				planet.orbital_period,
+				planet.diameter,
+				`./assets/images/planets/${planet.name.replace(/\s+/g, '')}.jpg`
+			);
+			renderCard(currentPlanet);				
 		});
 	});
 };
