@@ -1,6 +1,6 @@
 
 
-import { fetchAndRenderFilms, fetchAndRenderPlanets, fetchAndRenderVehicles } from "./fetchApis.js";
+import { fetchAndRenderFilms, fetchAndRenderPlanets, fetchAndRenderVehicles, fetchAndRenderCharacters } from "./fetchApis.js";
 
 
 const selectFunction = ()=> {

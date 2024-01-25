@@ -1,4 +1,4 @@
-import { CreateFilmCard, CreatePlanetCard, CreateVehicleCard } from "./createCards.js"
+import { CreateFilmCard, CreatePlanetCard, CreateVehicleCard, CreateCharacterCard } from "./createCards.js"
 import renderCard from "./renderCard.js";
 
 export const fetchAndRenderFilms = ()=> {
@@ -23,7 +23,6 @@ export const fetchAndRenderPlanets = ()=> {
 	fetch("https://swapi.dev/api/planets")
 	.then(response => response.json())
 	.then((data) => {
-		console.log(data);
 		data.results.forEach(planet => {			
 			const currentPlanet = new CreatePlanetCard(
 				planet.name,
@@ -42,7 +41,6 @@ export const fetchAndRenderVehicles = ()=> {
 	fetch("https://swapi.dev/api/vehicles")
 	.then(response => response.json())
 	.then((data) => {
-		console.log(data);
 		data.results.forEach(vehicle => {			
 			const currentVehicle = new CreateVehicleCard(
 				vehicle.name,
@@ -53,6 +51,24 @@ export const fetchAndRenderVehicles = ()=> {
 				`./assets/images/vehicles/${vehicle.name.replace(/[\/\s]+/g, '')}.jpg`
 			);
 			renderCard(currentVehicle);				
+		});
+	});
+};
+
+export const fetchAndRenderCharacters = ()=> {
+	fetch("https://swapi.dev/api/people")
+	.then(response => response.json())
+	.then((data) => {
+		data.results.forEach(character => {			
+			const currentCharacter = new CreateCharacterCard(
+				character.name,
+				character.height, 
+				character.mass,
+				character.hair_color,
+				character.skin_color,
+				`./assets/images/characters/${character.name.replace(/[\/\s]+/g, '')}.jpg`
+			);
+			renderCard(currentCharacter);				
 		});
 	});
 };

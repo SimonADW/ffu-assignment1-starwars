@@ -24,3 +24,12 @@ export function CreateVehicleCard(title, manufacturer, crew, cargo, vehicle_clas
 	this.VehicleClass = vehicle_class,
 	this.ImageUrl = imageUrl 
 }
+
+export function CreateCharacterCard(title, height, mass, hair, skin, imageUrl) {
+	this.Title = title,
+	this.Height = height, 
+	this.Mass = mass, 
+	this.HairColor = hair, 
+	this.SkinColor = skin,
+	this.ImageUrl = imageUrl 
+}
