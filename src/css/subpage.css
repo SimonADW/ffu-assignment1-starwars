@@ -66,7 +66,23 @@ li span:nth-last-of-type(2) {
 		gap: var(--spacing-medium);
 	}
 
+
+
 	.card__image {
 		max-width: 20rem;
 	}	
+
+	.cards__card {
+		flex-direction: row;
+		margin-bottom: 3rem;
+		gap: var(--spacing-medium);
+	}
+	
+	.cards__card div {
+		max-width: 60% ;
+	}
+
+	.light-saber {
+		display: none;
+	}
 }
