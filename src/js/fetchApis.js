@@ -11,7 +11,8 @@ export const fetchAndRenderFilms = ()=> {
 				film.director, 
 				film.release_date,
 				film.episode_id,
-				film.opening_crawl
+				film.opening_crawl,
+				`./assets/images/films/${film.title.replace(/\s+/g, '')}.jpeg`
 			);
 			renderCard(currentFilm);				
 		});
