@@ -39,12 +39,13 @@ const renderCard = (objectToRender)=> {
 
 	const lightSaber = document.createElement("div");
 	lightSaber.classList.add("light-saber");
-	card.appendChild(lightSaber);
+	cardContainer.appendChild(lightSaber);
 
 	const saberHandle = document.createElement("div");
 	const saberLight = document.createElement("div");
 	const saberLight2 = document.createElement("div");
 	lightSaber.append(saberLight ,saberHandle, saberLight2);
+
 };
 
 export default renderCard;

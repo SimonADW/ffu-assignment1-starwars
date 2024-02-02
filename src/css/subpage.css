@@ -16,7 +16,7 @@
 }
 
 img {
-	border: .5px solid black;
+	border: .5px solid #000;
 	margin-bottom: var(--spacing-medium);
 }
 
@@ -38,22 +38,21 @@ li span:nth-last-of-type(2) {
 	width: 75%;
 	height: 6px;
 	border-radius: 6px;
-	border: 1px solid rgba(235, 33, 46, 0.8);
-	box-shadow: 0 0 10px rgba(235, 33, 46, 0.8);	
+	box-shadow:0 0 5px #fff,0 0 8px #fff,0 0 12px #942222,0 0 15px #881119,0 0 25px #a1121c;  /* Shadow inspiration Popov A.V. at: https://codepen.io/Asgator */
 	overflow: hidden;
 	display: flex;	
-	margin: var(--spacing-medium) auto var(--spacing-medium);	
+	margin: var(--spacing-large) auto var(--spacing-large);	
 }
 
 .light-saber div:nth-of-type(1),
 .light-saber div:nth-of-type(3) {
 	flex-basis: 80%;
-	background: rgb(235, 33, 46);
+	background:#fff;
 }
 
 .light-saber div:nth-of-type(2) {
 	flex-basis: 20%;
-	border: 1px dotted white;
+	border: 2px dotted #fff;
 	background: grey;
 
 }
@@ -66,10 +65,9 @@ li span:nth-last-of-type(2) {
 		gap: var(--spacing-medium);
 	}
 
-
-
 	.card__image {
-		max-width: 20rem;
+		width: 22rem;
+		height: 12rem;
 	}	
 
 	.cards__card {
@@ -80,9 +78,5 @@ li span:nth-last-of-type(2) {
 	
 	.cards__card div {
 		max-width: 60% ;
-	}
-
-	.light-saber {
-		display: none;
 	}
 }

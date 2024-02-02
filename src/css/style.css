@@ -37,6 +37,7 @@ main {
 	max-width: 1080px;		
 	margin: 0 auto;
 	padding: 0 var(--spacing-medium);
+	flex: 1 0 auto;
 
 	display: flex;
 	flex-direction: column;
@@ -82,5 +83,6 @@ footer {
 	align-self: center;	
 	margin-bottom: var(--spacing-medium);
 	margin-top: auto;
+	flex-shrink: 0;
 }
 
