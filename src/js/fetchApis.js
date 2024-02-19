@@ -1,6 +1,8 @@
 import { CreateFilmCard, CreatePlanetCard, CreateVehicleCard, CreateCharacterCard } from "./createCards.js"
 import renderCard from "./renderCard.js";
 
+
+// @TODO UPDATE TO ASYNC
 export const fetchAndRenderFilms = ()=> {
 	fetch("https://swapi.dev/api/films")
 	.then(response => response.json())

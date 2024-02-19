@@ -1,4 +1,4 @@
-## Semesterassigment 1 - FFU1200 
+## Semesterassigment 1 - FFU1200 - Star Wars API
 
 ### Assignment Description
 The purpose of this assignment is to obtain practical training in working with the Fetch
@@ -22,3 +22,22 @@ required endpoints.
 	* Landing page background: Maria Ten (unsplash.com)
 	* T-16 Skyhopper: Mark Molnar
 	* All remaining images is from The Official Star Wars Website 
+
+
+
+### Who maintains and contributes to the project  
+Contributors:  
+* Author: Simon Winter
+	* E-mail: simon-winter@outlook.com
+	* Git Hub: [SimonADW](https://github.com/SimonADW)
+
+* Teacher: Mohammadreza Dianat
+
+
+### Related links
+Netlify: [Semesterassignment 1 - Star Wars API](https://aquamarine-cobbler-a6cb05.netlify.app/dist/)  
+GitHub: [Assignement 1 repository](https://github.com/SimonADW/ffu-assignment1-starwars)
+
+2024 [Simon Winter](https://github.com/SimonADW)  
+
+[:root folder]: ../
