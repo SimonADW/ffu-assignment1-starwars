@@ -58,6 +58,7 @@ h1 {
 }
 
 h3 {
+	width: fit;
 	transition: 200ms;
 }
 
@@ -72,7 +73,9 @@ p.introduction {
 }
 
 nav {
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 article h4 {
