@@ -1,6 +1,6 @@
 import { CreateFilmCard, CreatePlanetCard, CreateVehicleCard, CreateCharacterCard } from "./createCards.js"
 import renderCard from "./renderCard.js";
-
+import renderErrorMessage from "./renderErrorMessage.js";
 
 // @TODO UPDATE TO ASYNC
 export const fetchAndRenderFilms = ()=> {
@@ -18,6 +18,9 @@ export const fetchAndRenderFilms = ()=> {
 			);
 			renderCard(currentFilm);				
 		});
+	})
+	.catch((error)=> {
+		renderErrorMessage(error);
 	});
 };
 
@@ -36,6 +39,9 @@ export const fetchAndRenderPlanets = ()=> {
 			);
 			renderCard(currentPlanet);				
 		});
+	})
+	.catch((error)=> {
+		renderErrorMessage(error);
 	});
 };
 
@@ -54,6 +60,9 @@ export const fetchAndRenderVehicles = ()=> {
 			);
 			renderCard(currentVehicle);				
 		});
+	})
+	.catch((error)=> {
+		renderErrorMessage(error);
 	});
 };
 
@@ -72,5 +81,8 @@ export const fetchAndRenderCharacters = ()=> {
 			);
 			renderCard(currentCharacter);				
 		});
+	})
+	.catch((error)=> {
+		renderErrorMessage(error);
 	});
 };

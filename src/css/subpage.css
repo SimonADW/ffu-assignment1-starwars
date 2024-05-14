@@ -9,6 +9,18 @@
 	opacity: 0.2;
 }
 
+.error-message {
+	width: 90%;
+	height: 20%;
+	display: none;
+	font-size: 1.3rem;
+	text-align: center;
+	margin: 0 auto;
+	padding: var(--spacing-small);
+	border: 2px solid var(--color-gold);
+	box-shadow: 0 0 15px rgb(227, 165, 74);
+	background: transparent;
+}
 
 .cards__card {
 	display: flex;
