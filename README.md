@@ -7,10 +7,15 @@ categories of data from the SWAPI API (Star Wars API) and display it on the page
 your responsibility to read the SWAPI API documentation thoroughly to learn about the
 required endpoints. 
 
+### Who maintains and contributes to the project  
+Contributors:  
+* Author: Simon Winter
+	* E-mail: simon-winter@outlook.com
+	* Git Hub: [SimonADW](https://github.com/SimonADW)
 
+* Lecturer / Feedbacks: Reza Dianat
 
 ### Credits
-
 * Fonts:  
 	* Roboto Condensed Designer: Christian Robertson  
 	SIL	Open Font Licence
@@ -24,18 +29,8 @@ required endpoints.
 	* All remaining images is from The Official Star Wars Website 
 
 
-
-### Who maintains and contributes to the project  
-Contributors:  
-* Author: Simon Winter
-	* E-mail: simon-winter@outlook.com
-	* Git Hub: [SimonADW](https://github.com/SimonADW)
-
-* Teacher: Mohammadreza Dianat
-
-
 ### Related links
-Netlify: [Semesterassignment 1 - Star Wars API](https://aquamarine-cobbler-a6cb05.netlify.app/dist/)  
+Netlify: [Semesterassignment 1 - Star Wars API](https://starwarsassignment1.netlify.app/)  
 GitHub: [Assignement 1 repository](https://github.com/SimonADW/ffu-assignment1-starwars)
 
 2024 [Simon Winter](https://github.com/SimonADW)  
